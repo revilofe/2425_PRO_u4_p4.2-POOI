@@ -58,10 +58,13 @@ Para ejecutar todos los tests unitarios definidos en el proyecto y verificar la 
 ```
 Los informes de los tests se generan en `build/reports/tests/test/index.html`.
 
-## Feedback Automático
-Este repositorio está configurado con GitHub Actions. Cuando envíes un Pull Request con tus soluciones (o hagas un push directo a tu repositorio fork), se ejecutarán automáticamente una serie de pruebas unitarias.
+## Feedback Automático y Asistencia por IA
 
-Podrás ver los resultados de estas pruebas y un feedback general directamente en tu Pull Request (en la sección de comentarios y en la pestaña "Checks") o en la pestaña "Actions" de tu repositorio si fue un push. ¡Asegúrate de revisar esta información para validar tu solución!
+Este repositorio está configurado con GitHub Actions para ayudarte a mejorar tu código. Cuando envíes un Pull Request con tus soluciones (o hagas un push directo a tu repositorio fork), recibirás feedback detallado que incluye resultados de tests unitarios y un análisis de tu código por Inteligencia Artificial.
+
+**Para una explicación completa de cómo funciona este sistema de feedback, cómo configurarlo (si eres un profesor usando este template) y cómo interpretar los resultados, por favor consulta el archivo [feedback.md](feedback.md).**
+
+Podrás ver los resultados de las pruebas y el feedback de la IA directamente como un comentario en tu Pull Request (o en los logs de la acción "Actions" si fue un push). ¡Asegúrate de revisar estos comentarios y la sección "Checks" de tu PR para entender cómo puedes mejorar tu trabajo!
 
 ## Desarrollo de la Actividad
 

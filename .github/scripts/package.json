@@ -1,0 +1,12 @@
+{
+  "name": "github-ai-feedback-scripts",
+  "version": "1.0.0",
+  "description": "Scripts para generar feedback de IA en GitHub Actions utilizando Google Gemini.",
+  "main": "call-ai-feedback.js",
+  "private": true,
+  "dependencies": {
+    "@google/generative-ai": "^0.12.0",
+    "@octokit/rest": "^20.1.1"
+  },
+  "type": "commonjs"
+}
